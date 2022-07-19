@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Drag and Drop</title>
+<link rel="stylesheet" tye="text/css" href="css/style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</head>
+<body>
+<div>Drag the Weight and Disc into the Weighting Machine</div>
+<img id="drag_m" src="images/weighing_machine_01.svg" width="500" height="200">
+<br/><br/>
+<div id="dropzone">
+<img src="images/weight_ball_01.svg" width="120" height="60">
+<p id="kg1">1 kg</p>
+</div>
+<div id="dropzone1">
+<img src="images/weight_disk_01.svg" width="140" height="80">
+<p id="kg5">5 kg</p>
+</div>
+
+
+<script>
+$("#dropzone").draggable();
+$("#dropzone1").draggable();
+$("#drag_m").droppable({
+drop: function(event, ui) {
+},
+over: function(event, ui) {
+},
+out: function(event, ui) {
+}
+});
+</script>
+
+</body>
+</html>

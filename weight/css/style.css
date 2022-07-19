@@ -1,0 +1,37 @@
+body {
+font-size: 32px;
+}
+#drag_m
+{
+margin-top: 120px;
+}
+
+#dropzone {
+position; relative;
+float: left;
+top: 15px;
+float: left;
+display: flex;
+margin-left: 65px;
+}
+#dropzone1 {
+position; relative;
+top: 15px;
+float: left;
+}
+#kg1
+{
+
+margin-left: -3em;
+font-weight: bold;
+font-size: 20px;
+width: 100%;
+}
+#kg5
+{
+margin-left: 2.5em;
+font-weight: bold;
+font-size: 20px;
+width: 100%;
+margin-top: -3em;
+}
